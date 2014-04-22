@@ -1,6 +1,6 @@
-# Zenburn theme, based on Murrina333
+# Zenburn-Light theme, based on Murrina333
 
-gtk_color_scheme = "fg_color:#B3B3A1\nbg_color:#333333\nbase_color:#3f3f3f\ntext_color:#B3B3A1\nselected_bg_color:#1E2320\nselected_fg_color:#A3CACC"
+gtk_color_scheme = "fg_color:#242424\nbg_color:#C3BF9F\nbase_color:#D0D0A0\ntext_color:#242424\nselected_bg_color:#A0AFA0\nselected_fg_color:#1E2320"
 
 gtk-button-images = 1
 gtk-icon-sizes = "panel-menu=16,16:panel=16,16:gtk-button=16,16:gtk-large-toolbar=16,16"
@@ -53,7 +53,6 @@ style "theme-default"
   engine "murrine" 
   {
 	menuitemstyle	 	= 2
-	scrollbar_color	 	= "#B3A98F"
 	scrollbarstyle	 	= 3
 	contrast		 	= 1.0
 	menustyle 		 	= 0
@@ -63,10 +62,9 @@ style "theme-default"
 	menuitemstyle 	 	= 0
 	listviewheaderstyle = 0
 	listviewstyle 		= 1
-	gradients			= FALSE
 	roundness 			= 0
-        animation 			= TRUE
-    hilight_ratio 		= 0.909090
+    animation 			= TRUE
+    highlight_shade	    = 0.909090
   }
 }
 
